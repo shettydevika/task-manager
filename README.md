@@ -12,10 +12,12 @@ View all tasks grouped by priority.
 Update and delete tasks.
 Graphical representation of task priorities on the homepage.
 
-/*Prerequisites*/
+*Prerequisites*
 
 Node.js and npm (Node Package Manager)
+
 MongoDB
+
 ----------------------------------------------------------------------------------
 
 /*Getting Started*/
@@ -38,7 +40,9 @@ MongoDB
             node server.js
 
 The backend server should now be running on http://localhost:5000.
+
 ("Server is running on port 5000")
+
 ----------------------------------------------------------------------------------
 
 2. Frontend Setup
