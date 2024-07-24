@@ -73,6 +73,30 @@ Dependencies not found or version issues
 Make sure you have installed the correct versions of react-chartjs-2 and chart.js:
 
     npm install react-chartjs-2@3 chart.js@3
-    
+
+----------------------------------------------------------------------------------
+
+Homepage Overview
+
 ![Alt Text](homepage.png)
 
+This screenshot shows the main dashboard of the Task Manager application, including the bar graph representing task priorities and navigation buttons.
+
+----------------------------------------------------------------------------------
+
+Create New Task Form
+
+![Alt Text](createnewtask.png)
+
+This screenshot displays the form used to create a new task, including fields for title, date, priority, assigned to, etc.
+
+----------------------------------------------------------------------------------
+Tasks by Priority
+
+![Alt Text](showtasks1.png)
+![Alt Text](showtasks2.png)
+![Alt Text](showtasks3.png)
+
+This screenshot highlights the "Show All Tasks" page where tasks are grouped and displayed based on their priority levels.
+
+----------------------------------------------------------------------------------
