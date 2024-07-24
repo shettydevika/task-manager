@@ -47,7 +47,8 @@ app.put('/tasks/:id', async (req, res) => {
 
 // Delete a task
 app.delete('/tasks/:id', async (req, res) => {
-  const { id } = req.params;
+  const { id } = req.para
+  ms;
   await Task.findByIdAndDelete(id);
   res.send({ message: 'Task successfully deleted' });
 });
