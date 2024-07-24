@@ -42,6 +42,7 @@ MongoDB
 The backend server should now be running on http://localhost:5000.
 
 ("Server is running on port 5000")
+![Alt Text](backend.png)
 
 ----------------------------------------------------------------------------------
 
