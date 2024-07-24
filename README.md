@@ -73,3 +73,6 @@ Dependencies not found or version issues
 Make sure you have installed the correct versions of react-chartjs-2 and chart.js:
 
     npm install react-chartjs-2@3 chart.js@3
+    
+![Alt Text](homepage.png)
+
