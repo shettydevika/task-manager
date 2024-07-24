@@ -1,6 +1,7 @@
 Task Manager
 
-/*Project Overview*/
+*Project Overview*
+
 This Task Manager application allows you to create, view, update, and delete tasks. The homepage provides an overview of tasks with a bar graph representing task priorities.
 
 
