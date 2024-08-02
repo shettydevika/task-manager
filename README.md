@@ -26,12 +26,12 @@ The Task Manager application is a comprehensive solution for managing tasks with
 
 To run this project locally, follow these steps:
 
-# Prerequisites
+### Prerequisites
 
 - **Node.js and npm installed on your machine**
 - **MongoDB installed and running locally or a MongoDB Atlas account**
 
-# Setup
+### Setup
 
 1. **Clone the repository**:
     ```sh
