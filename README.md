@@ -33,48 +33,52 @@ View all tasks grouped by priority.
 Update and delete tasks.
 Graphical representation of task priorities on the homepage.
 
-*Prerequisites*
+# Prerequisites
 
 - **Node.js and npm installed on your machine**
 - **MongoDB installed and running locally or a MongoDB Atlas account**
 
+# Setup
 
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/shettydevika/task-manager.git
+    cd taskmanager
 
-*Setup*
-
-    1.1. Clone the repository:
-
-           git clone https://github.com/shettydevika/task-manager.git
-           cd taskmanager
-
-    1.2. Start MongoDB:
-   
-            Ensure MongoDB is running on your local machine.
+2. **Start MongoDB**:
+Ensure MongoDB is running on your local machine.
     
-    1.3. Run the backend server:
-            
-            node server.js
+3. **Run the backend server**:
+    ```sh        
+    node server.js
 
 The backend server should now be running on http://localhost:5000.
-
-("Server is running on port 5000")
 ![Alt Text](images/backend.png)
 
-----------------------------------------------------------------------------------
+4. **Navigate to the frontend directory**:
+    ```sh
+    cd taskmanager-frontend
 
-2. Frontend Setup
-
-    2.1. Navigate to the frontend directory:
-   
-            cd taskmanager-frontend
-
-    2.2. Start the frontend development server:
-   
-            npm start
+5. **Start the frontend development server**:
+   ```sh
+   npm start
 
 The frontend should now be running on http://localhost:3000.
 
-----------------------------------------------------------------------------------
+## Usage
+
+Homepage Overview
+
+The main dashboard displaying task priorities and navigation buttons.
+
+Create New Task
+To create a new task, navigate to the "Create New Task" page using the button on the homepage. Fill in the required fields including title, date, priority, and assignee.
+
+View Tasks by Priority
+Tasks are displayed based on their priority on the "Show All Tasks" page. Each priority level is color-coded for easy identification.
+
+Update and Delete Tasks
+On the "Show All Tasks" page, you can update or delete tasks using the respective buttons.
 
 /*Additional Information*/
 
