@@ -60,24 +60,24 @@ The frontend should now be running on http://localhost:3000.
 
 ## Usage
 
-# Homepage Overview
+### Homepage Overview
 
 The main dashboard displaying task priorities and navigation buttons.
 ![Alt Text](images/homepage.png)
 
-# Create New Task
+### Create New Task
 
 To create a new task, navigate to the "Create New Task" page using the button on the homepage. Fill in the required fields including title, date, priority, and assignee.
 ![Alt Text](images/createnewtask.png)
 
-# View Tasks by Priority
+### View Tasks by Priority
 
 Tasks are displayed based on their priority on the "Show All Tasks" page. Each priority level is color-coded for easy identification.
 ![Alt Text](images/showtasks1.png)
 ![Alt Text](images/showtasks2.png)
 ![Alt Text](images/showtasks3.png)
 
-# Update and Delete Tasks
+### Update and Delete Tasks
 
 On the "Show All Tasks" page, you can update or delete tasks using the respective buttons.
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/60b1ebfc-c7f3-49a8-b781-4521087e1bc7">
