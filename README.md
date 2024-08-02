@@ -15,13 +15,16 @@
 ## Project Description
 
 The Task Manager application is a comprehensive solution for managing tasks with features to create, view, update, and delete tasks. The application provides a user-friendly interface with graphical representations of task distributions by priority. Users can easily navigate through different functionalities, ensuring efficient task management.
+
 ## Technologies Used
 
-- **Programming Language**: Python
-- **Machine Learning**: TensorFlow, Keras, scikit-learn
-- **Natural Language Processing**: NLTK, SpaCy
-- **Data Handling**: Pandas
-- **Development Environment**: Visual Studio Code
+- **Frontend**: React, Chart.js & react-chartjs-2, CSS for styling
+- **Backend**: Node.js, Express, MongoDB
+- **Other**: Axios for API calls
+
+## Installation
+
+To run this project locally, follow these steps:
 
 *Features*
 
@@ -32,17 +35,12 @@ Graphical representation of task priorities on the homepage.
 
 *Prerequisites*
 
-Node.js and npm (Node Package Manager)
+- **Node.js and npm installed on your machine**
+- **MongoDB installed and running locally or a MongoDB Atlas account**
 
-MongoDB
 
-----------------------------------------------------------------------------------
 
-/*Getting Started*/
-
-----------------------------------------------------------------------------------
-
-1. Backend Setup
+*Setup*
 
     1.1. Clone the repository:
 
