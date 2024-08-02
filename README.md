@@ -7,9 +7,9 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Data](#data)
-- [Model Training](#model-training)
-- [Contributing](#contributing)
-- [License](#license)
+- [Features](#features)
+- [Additional Information](#additional-information)
+- [Troubleshooting](#troubleshooting)
 - [Acknowledgements](#acknowledgements)
 
 ## Project Description
@@ -25,13 +25,6 @@ The Task Manager application is a comprehensive solution for managing tasks with
 ## Installation
 
 To run this project locally, follow these steps:
-
-*Features*
-
-Create new tasks with details such as title, date, priority, and assignee.
-View all tasks grouped by priority.
-Update and delete tasks.
-Graphical representation of task priorities on the homepage.
 
 # Prerequisites
 
@@ -67,57 +60,53 @@ The frontend should now be running on http://localhost:3000.
 
 ## Usage
 
-Homepage Overview
+# Homepage Overview
 
 The main dashboard displaying task priorities and navigation buttons.
-
-Create New Task
-To create a new task, navigate to the "Create New Task" page using the button on the homepage. Fill in the required fields including title, date, priority, and assignee.
-
-View Tasks by Priority
-Tasks are displayed based on their priority on the "Show All Tasks" page. Each priority level is color-coded for easy identification.
-
-Update and Delete Tasks
-On the "Show All Tasks" page, you can update or delete tasks using the respective buttons.
-
-/*Additional Information*/
-
--> Ensure that the backend server is running before starting the frontend development server.
--> MongoDB should be running on your local machine or adjust the MongoDB connection string in server.js accordingly.
-
-----------------------------------------------------------------------------------
-
-/*Troubleshooting*/
-
-Dependencies not found or version issues
-
-Make sure you have installed the correct versions of react-chartjs-2 and chart.js:
-
-    npm install react-chartjs-2@3 chart.js@3
-
-----------------------------------------------------------------------------------
-
-Homepage Overview
-
 ![Alt Text](images/homepage.png)
 
-This screenshot shows the main dashboard of the Task Manager application, including the bar graph representing task priorities and navigation buttons.
+# Create New Task
 
-----------------------------------------------------------------------------------
-
-Create New Task Form
-
+To create a new task, navigate to the "Create New Task" page using the button on the homepage. Fill in the required fields including title, date, priority, and assignee.
 ![Alt Text](images/createnewtask.png)
 
-This screenshot displays the form used to create a new task, including fields for title, date, priority, assigned to, etc.
+# View Tasks by Priority
 
-----------------------------------------------------------------------------------
-Tasks by Priority
-
+Tasks are displayed based on their priority on the "Show All Tasks" page. Each priority level is color-coded for easy identification.
 ![Alt Text](images/showtasks1.png)
 ![Alt Text](images/showtasks2.png)
 ![Alt Text](images/showtasks3.png)
 
-This screenshot highlights the "Show All Tasks" page where tasks are grouped and displayed based on their priority levels.
+# Update and Delete Tasks
 
-----------------------------------------------------------------------------------
+On the "Show All Tasks" page, you can update or delete tasks using the respective buttons.
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/60b1ebfc-c7f3-49a8-b781-4521087e1bc7">
+
+## Data
+
+The data used in this application is stored in MongoDB. Each task document contains fields like title, date, priority, and assigned user.
+
+## Features
+
+- **Create new tasks with details such as title, date, priority, and assignee.**
+- **View all tasks grouped by priority.**
+- **Update and delete tasks.**
+- **Graphical representation of task priorities on the homepage.**
+
+## Additional Information
+
+- **Ensure that the backend server is running before starting the frontend development server.**
+- **MongoDB should be running on your local machine or adjust the MongoDB connection string in server.js accordingly.**
+
+
+## Troubleshooting
+
+- **Dependencies not found or version issues.**
+- **Make sure you have installed the correct versions of react-chartjs-2 and chart.js:**
+    ```sh
+    npm install react-chartjs-2@3 chart.js@3
+
+## Acknowledgements
+
+Thanks to the contributors and the open-source community for their support.
+Special thanks to Chart.js and react-chartjs-2 for the graphical tools used in this project.
