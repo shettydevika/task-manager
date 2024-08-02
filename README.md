@@ -1,9 +1,27 @@
-Task Manager
+#Task Manager
 
-*Project Overview*
+## Table of Contents
 
-This Task Manager application allows you to create, view, update, and delete tasks. The homepage provides an overview of tasks with a bar graph representing task priorities.
+- [Project Description](#project-description)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Data](#data)
+- [Model Training](#model-training)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
+## Project Description
+
+The Task Manager application is a comprehensive solution for managing tasks with features to create, view, update, and delete tasks. The application provides a user-friendly interface with graphical representations of task distributions by priority. Users can easily navigate through different functionalities, ensuring efficient task management.
+## Technologies Used
+
+- **Programming Language**: Python
+- **Machine Learning**: TensorFlow, Keras, scikit-learn
+- **Natural Language Processing**: NLTK, SpaCy
+- **Data Handling**: Pandas
+- **Development Environment**: Visual Studio Code
 
 *Features*
 
